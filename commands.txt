@@ -1,0 +1,4 @@
+flutter pub uploader add miguelhangelh@gmail.com
+
+dart pub publish
+mason make feature --feature_name=bingo

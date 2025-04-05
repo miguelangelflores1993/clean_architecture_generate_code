@@ -1,0 +1,13 @@
+name: clean_architecture_generate_code
+description: A collection of Mason bricks for clean architecture code generation
+homepage: https://miguelangelflores.me
+repository: https://github.com/miguelangelflores1993/clean_architecture_generate_code
+version: 1.0.1
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  mason_cli: ^0.1.2
+
+dev_dependencies:
+  test: ^1.0.0
