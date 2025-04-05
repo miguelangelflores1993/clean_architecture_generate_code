@@ -1,4 +1,6 @@
-flutter pub uploader add miguelhangelh@gmail.com
+flutter pub uploader add email user
 
 dart pub publish
+mason new name_proyect
+mason add --global feature_simple --path ./feature_simple
 mason make feature --feature_name=bingo

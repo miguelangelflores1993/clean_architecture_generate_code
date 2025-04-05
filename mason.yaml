@@ -3,3 +3,6 @@ bricks:
     path: feature
   networking:
     path: networking
+  feature_simple:
+    path: feature_simple
+    

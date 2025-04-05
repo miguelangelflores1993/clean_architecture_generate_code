@@ -1,8 +1,8 @@
-name: clean_architecture_generate_code
-description: A collection of Mason bricks for clean architecture code generation
-homepage: https://miguelangelflores.me
-repository: https://github.com/miguelangelflores1993/clean_architecture_generate_code
-version: 1.0.1
+name: mobi_latam_generate_code
+description: Generate code for clean architecture
+homepage: https://mobi.lat
+repository: https://github.com/mobilatam/mobi_latam_generate_code
+version: 1.0.0
 environment:
   sdk: ^3.7.0
 

@@ -29,5 +29,5 @@ vars:
   name:
     type: string
     description: Your name
-    default: Dash
+    default: Mobi
     prompt: What is your name?

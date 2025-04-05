@@ -1,10 +1,13 @@
-# Mason Brick - Your Feature
+# Your Feature
 
-This is a Mason brick for [description of what the brick does].
+## Installation y generate feature
 
-## Installation
+# 🎯 Activate from https://pub.dev
+dart pub global activate mobi_latam_generate_code
 
-To use this brick, run:
-
-```bash
-mason make your_feature
+# 📦 Add feature simple
+mason make feature_simple --feature_name=sales
+# 📦 Add feature simple with Dartz
+mason make feature --feature_name=sales
+# 📦 Add networking library
+mason make networking --name=none
