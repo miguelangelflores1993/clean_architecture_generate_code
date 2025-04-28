@@ -1,4 +1,4 @@
-name: feature_simple
+name: feature
 description: A new brick created with the Mason CLI.
 
 # The following defines the brick repository url.
@@ -31,3 +31,12 @@ vars:
     description: Feature name
     default: default
     prompt: What is your name feature?
+  service_name:
+    type: enum
+    description: Service name
+    values:
+      - identityService
+      - salesService
+      - catalogService
+    default: identityService
+    prompt: What is your service name?

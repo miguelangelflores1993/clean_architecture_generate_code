@@ -7,6 +7,8 @@ import 'data/repositories/{{feature_name.snakeCase()}}_repository_impl.dart';
 import 'domain/repository/{{feature_name.snakeCase()}}_repository.dart';
 import 'domain/usecases/get_all_{{feature_name.snakeCase()}}_use_case.dart';
 import 'presentation/bloc/{{feature_name.snakeCase()}}_bloc.dart';
+import 'package:networking_flutter_dio/core/networking/api_service.dart';
+import 'package:networking_flutter_dio/core/networking/api_config.dart';
 
 void init{{feature_name.pascalCase()}}Injection(GetIt sl) {
   // Bloc
@@ -26,6 +28,6 @@ void init{{feature_name.pascalCase()}}Injection(GetIt sl) {
 
   // Data sources
   sl.registerLazySingleton<{{feature_name.pascalCase()}}RemoteDataSource>(
-    () => {{feature_name.pascalCase()}}DataSourceImplementation(api:sl()),
+    () => {{feature_name.pascalCase()}}DataSourceImplementation(api:sl<ApiService>(instanceName: '{{service_name}}')),
   );
 }

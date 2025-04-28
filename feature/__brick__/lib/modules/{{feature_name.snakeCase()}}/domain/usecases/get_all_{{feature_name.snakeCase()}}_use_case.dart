@@ -1,4 +1,4 @@
-import 'package:dartz/dartz.dart';
+import 'package:fpdart/fpdart.dart';
 import '../../../../core/usecases/usecase.dart';
 import '../entities/{{feature_name.snakeCase()}}_entity.dart';
 import '../repository/{{feature_name.snakeCase()}}_repository.dart';

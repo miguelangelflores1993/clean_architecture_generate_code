@@ -1,4 +1,4 @@
-import 'package:dartz/dartz.dart';
+import 'package:fpdart/fpdart.dart';
 import '../entities/{{feature_name.snakeCase()}}_entity.dart';
 import 'package:networking_flutter_dio/core/networking/custom_exception.dart';
 
